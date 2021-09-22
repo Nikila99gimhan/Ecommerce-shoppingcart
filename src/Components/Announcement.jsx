@@ -8,6 +8,11 @@ const Container = styled.div`
     height: 30px;
     background-color:teal;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight:500;
 `;
 
 
@@ -16,7 +21,7 @@ const Container = styled.div`
 const Announcement = () => {
     return (
        <Container>
-           Supper Deals !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+           THE 21/22 THIRD KIT IS HERE - SHOP NOW !
        </Container>
     )
 }
